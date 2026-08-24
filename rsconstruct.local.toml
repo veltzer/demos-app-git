@@ -1,6 +1,0 @@
-# Repo-specific overlay. Deep-merged over the canonical rsconstruct.toml.
-
-# The shell demos live in examples/ and solutions/, which are not in the
-# canonical shellcheck src_dirs.
-[processor.shellcheck]
-src_dirs = ["examples", "solutions"]
