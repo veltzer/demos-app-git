@@ -1,6 +1,12 @@
-# Long lines are the nature of this content: the exercises quote full git
-# command lines and their output, which must not be wrapped. The 1000-char
-# allowance is the same one this repo carried in its pydmt-era markdown
-# config (.mdl.style.rb: rule 'MD013', line_length 1000).
+# Markdown lint rules, shared fleet-wide (rsmultigit check-same). Carried
+# over from the pydmt-era .markdownlint.json / .mdl.style.rb configs the
+# repos were maintained against: rules those never addressed stay on.
+
+[global]
+disable = ["MD022", "MD024", "MD026", "MD031", "MD032", "MD033", "MD034"]
+
+[MD007]
+indent = 4
+
 [MD013]
-line-length = 1000
+line_length = 1000

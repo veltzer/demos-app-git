@@ -1,3 +1,4 @@
+# shellcheck shell=bash
 function common_cleanup() {
 	rm -rf playground
 }

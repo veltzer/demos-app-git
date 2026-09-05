@@ -12,7 +12,7 @@ that repo.
 * the "rebase" way
   by using "git fetch"
   and "git rebase"
-  * bonus points: try the --interactive flag to git-rebase
+    * bonus points: try the --interactive flag to git-rebase
 Compare the two ways of working in terms of the git log of the master
 repository after the work has been done.
 Which do you like and why?

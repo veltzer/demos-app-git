@@ -4,13 +4,13 @@
 
 [processor.rumdl]
 src_dirs = ["exercises"]
+src_files = ["README.md"]
 
 [processor.zspell]
 src_dirs = ["exercises"]
 
 [processor.shellcheck]
 src_dirs = ["examples", "solutions"]
-args = ["--severity=error", "--shell=bash"]
 
 # ─── lua ─────────────────────────────────────────────────────────────────────
 
