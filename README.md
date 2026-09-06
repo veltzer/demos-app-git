@@ -1,1 +1,1 @@
-# demos-git
+# demos-app-git
