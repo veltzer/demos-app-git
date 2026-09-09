@@ -12,11 +12,6 @@ src_dirs = ["exercises"]
 [processor.shellcheck]
 src_dirs = ["examples", "solutions"]
 
-# ─── lua ─────────────────────────────────────────────────────────────────────
-
-[processor.luacheck]
-src_dirs = ["config"]
-
 # ─── toml / yaml / json ──────────────────────────────────────────────────────
 
 [processor.taplo]
