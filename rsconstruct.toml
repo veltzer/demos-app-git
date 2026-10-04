@@ -6,21 +6,21 @@ reject_dot_src_dirs = true
 
 [analyzer.markdown]
 
-[processor.rumdl]
+[processor.checker.rumdl]
 src_dirs = ["exercises"]
 src_files = ["README.md"]
 
-[processor.zspell]
+[processor.checker.zspell]
 src_dirs = ["exercises"]
 
-[processor.shellcheck]
+[processor.checker.shellcheck]
 src_dirs = ["examples", "solutions"]
 
 # ─── toml / yaml / json ──────────────────────────────────────────────────────
 
-[processor.taplo]
+[processor.checker.taplo]
 src_files = [".rumdl.toml", "rsconstruct.toml"]
 
 # lint the GitHub Actions workflow files with actionlint
-[processor.actionlint]
+[processor.checker.actionlint]
 src_dirs = [".github/workflows"]
