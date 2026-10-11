@@ -13,8 +13,11 @@ src_files = ["README.md"]
 [processor.checker.zspell]
 src_dirs = ["exercises"]
 
-[processor.checker.shellcheck]
+# the scripts source each other: shellcheck, given all of them at once,
+# followed those; ishellcheck checks each file alone, so it needs -x
+[processor.checker.ishellcheck]
 src_dirs = ["examples", "solutions"]
+external_sources = true
 
 # ─── toml / yaml / json ──────────────────────────────────────────────────────
 
