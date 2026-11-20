@@ -13,3 +13,8 @@ executable_sha256 = "12b47b3018e202259e2dba444f9fbcf168c6f8ffd2bc4d8f0e5ee410c79
 url = "https://github.com/tamasfe/taplo/releases/download/0.10.0/taplo-linux-x86_64.gz"
 sha256 = "8fe196b894ccf9072f98d4e1013a180306e17d244830b03986ee5e8eabeb6156"
 executable_sha256 = "dad2faf6377d2daa4f4fabf459fe7ccfb98a5448f0d4bca8270ca9acb0409bfe"
+
+[binary.zizmor]
+url = "https://github.com/zizmorcore/zizmor/releases/download/v1.32.0/zizmor-x86_64-unknown-linux-gnu.tar.gz"
+sha256 = "bb110cc765eca9cd7efb2e284a956be5974c60027b0970f16397d86208a9957b"
+executable_sha256 = "04d55fb88e582a8e9a9ce6b4753df723fc44c35e0d1a8e8771db9e017066c6df"
