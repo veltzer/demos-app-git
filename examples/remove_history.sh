@@ -11,7 +11,7 @@ echo "original repo"
 rm -rf pytconf
 git clone git@github.com:veltzer/pytconf.git
 cd pytconf
-git log --oneline | head -13
+git log --oneline -13
 
 echo "shallow repo"
 rm -rf pytconf

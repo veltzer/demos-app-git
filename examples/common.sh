@@ -26,7 +26,7 @@ function common_create_commits() {
 	branch=$(git rev-parse --abbrev-ref HEAD)
 	cd "${folder}" || exit
 	((x=1))
-	while [ "${x}" -le "${number}" ]
+	while [[ "${x}" -le "${number}" ]]
 	do
 		touch "${name}_${x}"
 		git add "${name}_${x}" > /dev/null

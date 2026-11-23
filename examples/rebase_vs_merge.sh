@@ -73,13 +73,16 @@ function doit() {
 	rm -rf server user1 user2
 }
 
+# best effort: a failing step must not stop the demo, so errexit is off here
+set +e
 {
 	debug merge
 	doit false
 	# sleep 2
 	debug rebase
 	doit true
-} 1> /dev/null 2> /dev/null || true
+} 1> /dev/null 2> /dev/null
+set -e
 
 # show results
 echo "merge log"

@@ -30,5 +30,5 @@ do
 	git add "${x}.txt"
 	git commit -m "commit ${x}"
 done
-git log | cat
+git --no-pager log
 cd ..
