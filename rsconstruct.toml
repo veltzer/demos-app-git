@@ -24,6 +24,10 @@ external_sources = true
 [processor.checker.taplo]
 src_files = [".rumdl.toml", "rsconstruct.toml"]
 
+# lint the Lua configuration with luacheck (policy: .luacheckrc)
+[processor.checker.iluacheck]
+src_dirs = ["config"]
+
 # lint the YAML files with yamllint (policy: .yamllint.yaml)
 [processor.checker.iyamllint]
 src_dirs = [".github"]
