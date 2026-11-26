@@ -45,3 +45,8 @@ src_dirs = [".github/workflows"]
 # quiet (undocumented permissions, template expansion of any context,
 # unnamed jobs, ...). --offline and --no-progress are the default args.
 args = ["--offline", "--no-progress", "--persona=pedantic"]
+
+# every lint suppression names a rule and says why (see the fleet's CLAUDE.md)
+[processor.checker.suppressions]
+src_dirs = [".github", "config", "examples", "exercises", "solutions"]
+src_files = [".yamllint.yaml", "README.md"]
